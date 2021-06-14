@@ -1,0 +1,155 @@
+{
+    "dashboard": {
+        "zero": {
+            "selector": "#ionos-journey-guide",
+            "type": "guide",
+            "elements": [
+                {
+                    "image-url": "https://img.fotocommunity.com/igel-ce948ce9-bad6-488f-be3f-bc628941ac82.jpg?width=304",
+                    "image-background": "white",
+                    "headline": "Hallo!",
+                    "text": "Herzlich willkommen bei der WordPress Journey powered by IONOS. Wir möchten Sie bei Ihren ersten Schritten mit WordPress begleiten und geben Ihnen wertvolle Tips an die Hand. "
+                },
+                {
+                    "image-url": "https://img.fotocommunity.com/igel-de0c1dee-365c-47c8-a4a6-683085a9808c.jpg?width=304",
+                    "image-background": "white",
+                    "headline": "WordPress Journey?",
+                    "text": "Wir werden Sie durch die jeweiligen Menüpunkte führen und auf die einzelnen Funktionen eingehen. Danach werden sie in der Lage sein, Ihre WordPress Instanz selbstständig zu verwalten."
+                },
+                {
+                    "image-url": "https://img.fotocommunity.com/igel-im-garten-deeac1d3-140a-4889-b7d6-00134de59d93.jpg?width=304",
+                    "image-background": "white",
+                    "headline": "Wie funktioniert das?",
+                    "text": "Navigieren Sie ganz bequem über die Pfeiltasten auf ihrer Tastatur oder verwenden Sie die Navigation in der Menüleiste am oberen Bildschirmrand. Wenn sie die Tour verlassen möchten drücken Sie einfach die ESCAPE Taste."
+                },{
+                    "image-url": "https://img.fotocommunity.com/igel-mit-jungtieren-dc9da43c-3446-4772-bace-7ee94df1e10b.jpg?width=304",
+                    "image-background": "white",
+                    "headline": "!!! LOS GEHT`s !!!",
+                    "text": "Wir wünschen Ihnen viel Spaß bei der Tour durch Ihr neues WordPress.<br><br>Viele Grüße,<br>Ihr WordPress Team von IONOS"
+                }
+            ],
+            "border-color": "transparent",
+            "navigation": "true",
+            "next": "1st"
+        },
+        "1st": {
+            "selector": "#wpcontent",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>Das <border_green>Dashboard</border_green> ist Ihre Mitteilungszentrale. Hier laufen alle Fäden zusammen. Beispielsweise werden sie Hier über Neuigkeiten im WordPress Universum informiert. Aber auch letzte Änderungen werden Ihen hier aufgezeigt<p/>",
+            "navigation": "true",
+            "next": "2nd"
+        },
+        "2nd": {
+            "selector": "#adminmenu",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>Im <border_green>Menü</border_green> befinden sich die einzelnen Bereiche für die Funktionen, die Ihnen, bei der Bearbeitung ihrer WordPress Instanz, zur Verfügung stehen. In dieser Tour werden wir auf jeden dieser Bereiche im Detail eingehen.</p>",
+            "navigation": "true",
+            "next": "3rd"
+        },
+        "3rd": {
+            "selector": "#menu-users",
+            "type": "highlight",
+            "border-color": "orange",
+            "behavior": "click",
+            "text": "<p>Im Bereich <border_orange>Benutzer</border_orange> können Sie neue Benutzer anlegen sowie bestehende Benutzer löschen oder deren Berechtigungen beeinflussen.</p><p>Möchten Sie mehr über den Bereich Benutzer erfahren? Dann klicken sie jetzt auf diesen Menüpunkt.</p><p>Alternativ können sie wie gehabt weiter fortfahren...</p>",
+            "navigation": "true",
+            "next": "4th"
+        },
+        "4th": {
+            "selector": "#menu-tools",
+            "type": "highlight",
+            "border-color": "blue",
+            "behavior": "click",
+            "text": "<h2>In diesem Bereich erzählen wir Ihnen etwas über Möpse &#128077</h2><p><center><i>klicken Sie doch mal</i> &#x1F61C; </center></p>",
+            "navigation": "true",
+            "next": "5th"
+        },
+        "5th": {
+            "selector": "#wpcontent",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<h1><center>!! ENDE !!</center></h1>",
+            "navigation": "false",
+            "next": null
+        }
+    },
+    "users": {
+        "1st": {
+            "selector": "#wpcontent",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>Basis eines jeden Log-in-Bereichs ist die integrierte <border_green>Benutzerverwaltung</border_green> in Wordpress</p><p>Hier finden Sie eine Aufstellung aller bereits verfügbaren Benutzer.</p>",
+            "navigation": "true",
+            "next": "2nd"
+        },
+        "2nd": {
+            "selector": ".role.column-role",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>Allen Benutzern in WordPress können Benutzerverwaltung zugewiesen werden. Durch diese <border_green>Rollen</border_green> werden auch verschiedene Rechte vergeben.</p><p>Um einem bereits existierenden Benutzer eine neue Rolle zuzuweisen, setzen Sie ein Häkchen neben den Benuern, gehen zum Auswahlfeld <i>Rolle ändern in</i> und wählen die gewünschte Rolle.</p>",
+            "navigation": "true",
+            "next": "3rd"
+        },
+        "3rd": {
+            "selector": "#new_role",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>Um einem bereits existierenden Benutzer eine neue Rolle zuzuweisen, setzen Sie ein Häkchen neben den Benuern, gehen zum Auswahlfeld <border_green>Rolle ändern in</border_green> und wählen die gewünschte Rolle.</p>",
+            "navigation": "true",
+            "next": "4th"
+        },
+        "4th": {
+            "selector": "#wpcontent",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>Jetzt haben Sie einen Überblick über die Benutzerverwaltung.</p><p><i>Sollten Sie die Tour vom Dashboard aus gestartet haben, schicken wir Sie im nächsten Schritt dorthin zurück. Ansonsten ist die Tour für diesen Bereich beendet. </i>&#128522; </p>",
+            "navigation": "true",
+            "next": null
+        }
+    },
+    "tools": {
+        "zero": {
+            "selector": "#ionos-journey-guide",
+            "type": "guide",
+            "navigation": "true",
+            "elements": [
+                {
+                    "image-url": "https://img.fotocommunity.com/mein-mops-dd457776-a0ea-4d36-87df-fde77590c471.jpg?width=304",
+                    "headline": "Toller Mops",
+                    "text": "Sind Möpse nicht was tolles?"
+                },
+                {
+                    "image-url": "https://img.fotocommunity.com/zwei-moepse-173d0e76-1b7b-45e4-9e58-f88aac3c3e53.jpg?width=304",
+                    "headline": "Zwei Möpse",
+                    "text": "Am liebsten hätte ich auch zwei Möpse.... Ich würde den gaaaanzen Tag mit ihnen spielen. &#128525;"
+                },
+                {
+                    "image-url": "https://img.fotocommunity.com/mops-am-see-2-dab4877a-a2db-499b-b3d8-b5abab0a8a20.jpg?width=304",
+                    "headline": "Mops auf Baum",
+                    "text": "AAAwwwwww..... Ist das nicht ein süßer Mops?!"
+                }
+            ],
+            "border-color": "transparent",
+            "navigation": "true",
+            "next": "1st"
+        },
+        "1st": {
+            "selector": "#menu-tools",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<h2>Hier können Sie die Möpse bearbeiten.</h2><ul><li>1. Verfügbare Möpse</li><li>2. Möpse Importieren</li><li>3. Möpse Exportieren</li><li>4. Mops-Zusand</li><li>5. Personenbezogene Möpse exportieren</li><li>6. Personenbezogene Möpse löschen</li></ul>",
+            "navigation": "true",
+            "next": null
+        }
+    }
+}

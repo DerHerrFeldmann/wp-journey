@@ -1,0 +1,27 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mops
+      MYSQL_DATABASE: mops
+      MYSQL_USER: mops
+      MYSQL_PASSWORD: mops
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    links:
+      - db
+    ports:
+      - "8076:80"
+    volumes:
+      - ./ionos-journey:/var/www/html/wp-content/mu-plugins/ionos-journey
+      - ./ionos-journey.php:/var/www/html/wp-content/mu-plugins/ionos-journey.php
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_PASSWORD: mops
+      WORDPRESS_DEBUG: 1

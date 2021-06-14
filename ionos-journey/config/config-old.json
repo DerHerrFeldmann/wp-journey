@@ -1,0 +1,87 @@
+{
+    "dashboard": {
+        "zero": {
+            "selector": "#ionos-journey-guide",
+            "type": "guide",
+            "elements": [
+                {
+                  "image-url": "https://img.fotocommunity.com/mein-mops-dd457776-a0ea-4d36-87df-fde77590c471.jpg?width=304",
+                  "headline": "Toller Mops",
+                  "text": "Sind Möpse nicht was tolles? Jeder sollte welche haben .... "
+                },
+                {
+                  "image-url": "https://img.fotocommunity.com/zwei-moepse-173d0e76-1b7b-45e4-9e58-f88aac3c3e53.jpg?width=304",
+                  "headline": "Zwei Möpse",
+                  "text": "Am liebsten hätte ich zwei Möpse.... Ich würde den gaaaanzen Tag mit ihnen spielen"
+                },
+                {
+                  "image-url": "https://img.fotocommunity.com/mops-am-see-2-dab4877a-a2db-499b-b3d8-b5abab0a8a20.jpg?width=304",
+                  "headline": "Mops auf Baum",
+                  "text": "AAAwwwwww..... Ist das nicht ein süßer Mops?!"
+                }
+            ],
+            "border-color": "transparent",
+            "next": "1st"
+        },
+        "1st": {
+            "selector": "#adminmenu",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "In the <border_green>MENU</border_green> are the individual areas for the functions that are available to you. In this tutorial we will go into each of these areas in detail.",
+            "next": "2nd"
+        },
+        "2nd": {
+            "selector": "#dashboard-widgets-wrap",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "<p>The <border_green>Dashboard</border_green> represents the news area. Here you can find all the important info you might be interested in. Updates to themes, plugins but also to WordPress itself.<p>",
+            "next": "3rd"
+        },
+        "3rd": {
+            "selector": "#menu-users",
+            "type": "highlight",
+            "border-color": "orange",
+            "behavior": "click",
+            "text": "<p>In the <border_orange>USERS</border_orange> area you can create new users as well as delete existing users or influence their permissions</p><p>You can click <border_orange>USERS</border_orange> to enter this area. But you can also continue here for now :-)</p>",
+            "next": "4th"
+        },
+        "4th": {
+            "selector": "#menu-tools",
+            "type": "highlight",
+            "border-color": "blue",
+            "behavior": "click",
+            "text": "<p>In the area <border_blue>TOOLS</border_blue> you will find actually only scrap... well let`s leave it... ... ... now click on!!! #eye roll</p><p>You can click <border_blue>TOOLS</border_blue> to enter this area. But you can also continue here for now :-)</p>",
+            "next": "zero"
+        }
+    },
+    "users": {
+        "1st": {
+            "selector": "table.users",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "Schau mal wie toll",
+            "next": "2nd"
+        },
+        "2nd": {
+            "selector": "table.users",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "deeplink hat geklappt",
+            "next": "none"
+        }
+    },
+    "tools": {
+        "1st": {
+            "selector": "#menu-tools",
+            "type": "highlight",
+            "border-color": "green",
+            "behavior": "show",
+            "text": "Schau mal wie toll",
+            "next": "none"
+        }
+    }
+}
